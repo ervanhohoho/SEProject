@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.swipemarket.swipemarket.RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="36dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="80dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/RegUsername"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Username"
+        android:singleLine="true" />
+
+
+    <EditText
+        android:id="@+id/RegEmail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/RegPassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/Regbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="register_register"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/Switchbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:onClick="pindahLogin"
+        android:text="Sign In" />
+
+
+
+</LinearLayout>
