@@ -23,6 +23,7 @@ import com.mindorks.placeholderview.annotations.swipe.SwipeOutState;
 @Layout(R.layout.tinder_card_view)
 public class TinderCard {
 
+
     @View(R.id.profileImageView)
     private ImageView profileImageView;
 
