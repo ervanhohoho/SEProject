@@ -5,9 +5,15 @@ import android.content.Intent;
 import android.graphics.Point;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.ContextMenu;
 import android.view.Gravity;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.PopupWindow;
+import android.widget.TextView;
 
 import com.mindorks.placeholderview.SwipeDecor;
 import com.mindorks.placeholderview.SwipePlaceHolderView;
@@ -16,10 +22,13 @@ public class MainActivity extends AppCompatActivity {
 
     private SwipePlaceHolderView mSwipeView;
     private Context mContext;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         if (SaveSharedPreference.getUserName(this).length() == 0) {
             // call Login Activity
             Intent i = new Intent(this, LoginActivity.class);
@@ -59,12 +68,17 @@ public class MainActivity extends AppCompatActivity {
 
             findViewById(R.id.acceptBtn).setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onClick(View v) {
+                public void onClick(View v)
+                {
                     mSwipeView.doSwipe(true);
                 }
             });
         }
     }
+
+
+
+
     public void Click(View v)
     {
         ImageButton home = (ImageButton) findViewById(R.id.homebtn);

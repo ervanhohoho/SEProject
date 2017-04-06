@@ -168,6 +168,7 @@ public class LoginActivity extends AppCompatActivity {
                 final String email = etUsername.getText().toString();
                 SaveSharedPreference.setUserName(LoginActivity.this,email);
                 Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                Toast.makeText(LoginActivity.this,"Welcome, "+etUsername.getText().toString() ,Toast.LENGTH_LONG).show();
                 startActivity(intent);
                 LoginActivity.this.finish();
 
