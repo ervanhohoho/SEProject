@@ -3,147 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\6c0c90c8a29cc1660c716294d1c9cd8b97eb8525\output\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Ervan\AndroidStudioProjects\SwipeMarket\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8337db7acd7b35d9fe4da4770fe09ddd67e3290b\classes.dex" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Ervan\AndroidStudioProjects\SwipeMarket\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3800183a4048da8664e8f20cdb54685be43f326d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\44170435a902334ff40018aefd7389be0c1cf9e8\output\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Ervan\AndroidStudioProjects\SwipeMarket\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5497b905231f2fc0201e2693e6143db4ab9a9f51\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="54f0789f77fe83190052a9cbc1553b7ecb7f8834">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f7b172fac807ea13e83c3f7e334d828e6c73d912\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\2652d714f0725a70522bd8a9bf99f936a3c33109\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e46188a649a0db0e51c467df89c07b4739c275c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\89d0fb73a4325cb39abd4093c58a9b68040a2516\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d93241ee70411321103dcc7e121ae9d4c01958c8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\2a38f6e04a796efe8d83cd9f40ce00d932f8f946\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c633a453885af58253c4b15a8b7612fbebd5451\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\2f7d20e70eecb255e5b8fbe002d1a63c22fa37bf\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0c9b24e36f5771a43262cfb38b747366f0adf5ea">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_118bffe6550220d94e318ec7d7bb9376909e3113\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\a97317af8327f6358f1277388686dc1f2813cf01\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7d25782b6ff5283eb10bc8d98f464110c4869460\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\7f90d2eaf3d5a7930dc787164f444ade052a7e34\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ea875be0159618b397419de5e287dd724ead2929\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_6d9328ea93e1361f72b444aea2380e5279a7997b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\2a38f6e04a796efe8d83cd9f40ce00d932f8f946\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5ebf6aba8f398688d773688587aaede339d7194a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\6c0c90c8a29cc1660c716294d1c9cd8b97eb8525\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fe48a38650c61ce45002c2248b6c426871a983e9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_ef045f8f3d67ac69574067fb016063be488fb3f3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\510e2f352968e421fcd51304dda9ae724b362be3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc7add96682512cca97a736f28647c224d86c383\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0746bcb24b3f109bb27b231af71d6f4354f09fa6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Edward Then\.android\build-cache\44170435a902334ff40018aefd7389be0c1cf9e8\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Edward Then\Desktop\SEProject-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b536db9dd832663e69bb3a826d7cfda9b2b8af44\classes.dex" />
+        sha1="08f5864fbc73d4f611fbc0b7061b15f336fc5b2d">
+        <dex dex="C:\Users\Ervan\AndroidStudioProjects\SwipeMarket\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4941f0da20029d003d3435e96fcbef1ceabe3977\classes.dex" />
     </item>
 
 </items>
