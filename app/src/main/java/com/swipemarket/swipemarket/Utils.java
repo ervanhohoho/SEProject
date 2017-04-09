@@ -27,11 +27,11 @@ public class Utils {
 
     private static final String TAG = "Utils";
 
-    public static List<Profile> loadProfiles(Context context){
+    public static List<Profile> loadProfiles(Context context, String test){
         try{
             GsonBuilder builder = new GsonBuilder();
             Gson gson = builder.create();
-            JSONArray array = new JSONArray(loadJSONFromAsset(context, "profiles.json"));
+            JSONArray array = new JSONArray(test);
             List<Profile> profileList = new ArrayList<>();
             for(int i=0;i<array.length();i++){
                 Profile profile = gson.fromJson(array.getString(i), Profile.class);
@@ -43,7 +43,7 @@ public class Utils {
             return null;
         }
     }
-
+    //Tidak terpakai
     private static String loadJSONFromAsset(Context context, String jsonFileName) {
         String json = null;
         InputStream is=null;
@@ -55,7 +55,7 @@ public class Utils {
             byte[] buffer = new byte[size];
             is.read(buffer);
             is.close();
-            json = new String(buffer, "UTF-8");
+            json = jsonFileName;
         } catch (IOException ex) {
             ex.printStackTrace();
             return null;
