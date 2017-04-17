@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SwipeMarket</string>
+    <string name = "url" >https://ervandh.000webhostapp.com/</string>
 </resources>

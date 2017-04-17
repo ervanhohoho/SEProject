@@ -33,7 +33,7 @@ public class RegisterActivity extends AppCompatActivity {
             int tmp;
 
             try {
-                URL url = new URL("http://ervandh.ddns.net:37820/register.php");
+                URL url = new URL("https://ervandh.000webhostapp.com/register.php");
                 String urlParams = "name="+name+"&password="+password+"&email="+email;
 
                 HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();

@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
             //do your long running http tasks here,you dont want to pass argument and u can access the parent class' variable url over here
             URL url = null;
             try {
-                url = new URL("http://ervandh.ddns.net:37820/send-data.php");
+                url = new URL("https://ervandh.000webhostapp.com/send-data.php");
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             }

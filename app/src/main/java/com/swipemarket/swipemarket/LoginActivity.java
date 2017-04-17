@@ -78,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
             try {
 
                 // Enter URL address where your php file resides
-                url = new URL("http://ervandh.ddns.net:37820/login.inc.php");
+                url = new URL("https://ervandh.000webhostapp.com/login.inc.php");
 
             } catch (MalformedURLException e) {
                 // TODO Auto-generated catch block
