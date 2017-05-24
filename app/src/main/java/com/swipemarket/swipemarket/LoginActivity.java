@@ -1,6 +1,7 @@
 package com.swipemarket.swipemarket;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -166,11 +167,16 @@ public class LoginActivity extends AppCompatActivity {
                 /* Here launching another activity when login successful. If you persist login state
                 use sharedPreferences of Android. and logout button to clear sharedPreferences.
                  */
-                final String email = etUsername.getText().toString();
-                SaveSharedPreference.setUserName(LoginActivity.this,email);
+                final String username = etUsername.getText().toString();
+                SaveSharedPreference.setUserName(LoginActivity.this,username);
                 Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                 Toast.makeText(LoginActivity.this,"Welcome, "+etUsername.getText().toString() ,Toast.LENGTH_LONG).show();
-
+                intent.putExtra("Username",etUsername.getText().toString());
+                //
+                SharedPreferences sp = getSharedPreferences("Login",0);
+                SharedPreferences.Editor ed = sp.edit();
+                ed.putString("Username", etUsername.getText().toString());
+                //
                 startActivity(intent);
                 LoginActivity.this.finish();
 

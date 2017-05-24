@@ -1,6 +1,7 @@
 package com.swipemarket.swipemarket;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
@@ -18,7 +19,8 @@ public class MyProfile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
         String username;
-        username = PreferenceManager.getDefaultSharedPreferences(MyProfile.this).getString("Username","Error");
+        SharedPreferences sp1 = PreferenceManager.getDefaultSharedPreferences(MyProfile.this);
+        username = getIntent().getStringExtra("Username");
         TextView txusername = (TextView) findViewById(R.id.myprof_username);
         txusername.setText("Username: "+username);
         ImageButton logout;

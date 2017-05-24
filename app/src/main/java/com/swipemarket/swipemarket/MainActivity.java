@@ -48,12 +48,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 return true;
 
-            case R.id.popupcart :
-                Intent i1 = new Intent(this,Chat.class);
-                startActivity(i1);
-                finish();
-                return true;
-
             case R.id.popupcancel :
                 return true;
 
@@ -77,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        username = getIntent().getStringExtra("Username");
         ImageButton accept;
         //Toast.makeText(mContext, jsonString, Toast.LENGTH_SHORT).show();
         accept = (ImageButton) findViewById(R.id.acceptBtn);
@@ -111,21 +105,12 @@ public class MainActivity extends AppCompatActivity {
                             .setSwipeOutMsgLayoutId(R.layout.tinder_swipe_out_msg_view));
 
 
-
-
-            findViewById(R.id.rejectBtn).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    mSwipeView.doSwipe(false);
-                }
-            });
-
             findViewById(R.id.acceptBtn).setOnClickListener(new View.OnClickListener()
             {
                 @Override
                 public void onClick(View v)
                 {
-                    mSwipeView.doSwipe(true);
+                    //mSwipeView.doSwipe(true);
                     v.showContextMenu();
                 }
             });
@@ -150,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
         else if(v == profile)
         {
             Intent i = new Intent(this, MyProfile.class);
+            i.putExtra("Username",username);
             startActivity(i);
             finish();
         }

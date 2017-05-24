@@ -7,13 +7,6 @@
     </item>
 
     <item
-        android:id="@+id/popupcart"
-        android:title="Add to cart">
-
-    </item>
-
-
-    <item
         android:id="@+id/popupcancel"
         android:title="Cancel">
 
