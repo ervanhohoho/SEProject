@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
@@ -169,6 +170,7 @@ public class LoginActivity extends AppCompatActivity {
                 SaveSharedPreference.setUserName(LoginActivity.this,email);
                 Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                 Toast.makeText(LoginActivity.this,"Welcome, "+etUsername.getText().toString() ,Toast.LENGTH_LONG).show();
+
                 startActivity(intent);
                 LoginActivity.this.finish();
 

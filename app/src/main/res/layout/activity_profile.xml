@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.swipemarket.swipemarket.MainActivity"
+    tools:context="com.swipemarket.swipemarket.MyProfile"
     android:weightSum="1">
 
     <LinearLayout
@@ -68,7 +68,7 @@
             android:id="@+id/myprof_location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Location :"
+            android:text="Location : Indonesia"
             android:textSize="20dp"
             android:textAlignment="center"
         />
@@ -78,20 +78,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="90dp"
         android:background="@color/colorPrimary"
+        android:id="@+id/sellitembutton"
         android:hint="+ Sell Item"
         android:textSize="15dp"
+        android:onClick="Click"
         android:layout_marginTop="15dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Your Item"
-            android:textAlignment="center"
-            android:textSize="15dp"
-            android:layout_marginTop="20dp"
-        />
-
-        <ListView
+    <ListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"

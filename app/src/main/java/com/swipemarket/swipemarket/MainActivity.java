@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private SwipePlaceHolderView mSwipeView;
     private Context mContext;
     public String jsonString;
+    public String username;
 
     //Context Menu
     @Override
