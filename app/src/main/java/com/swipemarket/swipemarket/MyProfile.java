@@ -23,8 +23,8 @@ public class MyProfile extends AppCompatActivity {
         username = getIntent().getStringExtra("Username");
         TextView txusername = (TextView) findViewById(R.id.myprof_username);
         txusername.setText("Username: "+username);
-        ImageButton logout;
-        logout = (ImageButton) findViewById(R.id.logout);
+        Button logout;
+        logout = (Button) findViewById(R.id.logout);
         this.registerForContextMenu(logout);
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,9 +65,8 @@ public class MyProfile extends AppCompatActivity {
     public void Click(View v)
     {
         ImageButton home = (ImageButton) findViewById(R.id.homebtn);
-        ImageButton profile  = (ImageButton) findViewById(R.id.profilebtn);
         ImageButton chat = (ImageButton) findViewById(R.id.chatbtn);
-        ImageButton logout = (ImageButton) findViewById(R.id.logout);
+        Button logout = (Button) findViewById(R.id.logout);
         Button sell = (Button) findViewById(R.id.sellitembutton);
         if(v == home)
         {
@@ -79,21 +78,19 @@ public class MyProfile extends AppCompatActivity {
         {
             Intent i = new Intent(this, Chat.class);
             startActivity(i);
-            finish();
         }
         else if(v == sell)
         {
             Intent i = new Intent(this,SellActivity.class);
             startActivity(i);
-
         }
-        /*else if(v == logout)
+        else if(v == logout)
         {
             SaveSharedPreference.setUserName(this,null);
             Intent i =  new Intent(this,LoginActivity.class);
             startActivity(i);
             finish();
-        }*/
+        }
     }
     /*
     @Override

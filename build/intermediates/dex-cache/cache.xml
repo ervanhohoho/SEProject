@@ -10,5 +10,14 @@
         sha1="2852e6e05fbb95076fc091f6d1780f1f8fe35e0f">
         <dex dex="C:\Users\Ervan\AndroidStudioProjects\SwipeMarket\app\build\intermediates\pre-dexed\debug\commons-io-2.5_40374e15d2dbbbfdcf4dfff722fd8b2df5b1b7f8.jar" />
     </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\.android\build-cache\4241cb6ce87b59dd03446eab881e8f18a327aefa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="372295458f730b0715898d4b477a85aa1a777504">
+        <dex dex="C:\Users\Ervan\AndroidStudioProjects\SwipeMarket\app\build\intermediates\pre-dexed\debug\classes_c37a1a84a2503f3b205f56263d8539cc73e37b16.jar" />
+    </item>
 
 </items>
